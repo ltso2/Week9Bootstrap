@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        [class*="col"] {
+            padding: 1rem;
+            border: 1px solid black;
+        }
+        .dark {
+            background-color: rgb(254, 254, 254);
+            color: rgb(48, 48, 48);
+            text
+        }
+        .light {
+            background-color: rgb(139, 188, 231);
+            color: rgb(0, 0, 0);
+        }
+    </style>
+ 
+</head>
+<body>
+    <script src="node_modules/bootstrap/dist/js/bootstrap/bootstrap.bundle.js"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">MAIN MENU</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Homepage.html">Homepage <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Gallery.html">Photogallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About Us</a>
+            <li class="nav-item">
+              <a class="nav-link" href="Our Tours.html">Our Tours</a>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col text-center font-weight-bold dark">Tours Offered</div>
+            <div class="col-3 text-center dark">Time</div>
+            <div class="col-4 text-center dark">Cost</div>
+        </div>
+        <div class="row">
+            <div class="col text-center dark">Basic</div>
+            <div class="col-3 text-center dark">2 hours</div>
+            <div class="col-4 text-center dark">$100.00</div>
+        </div>
+        <div class="row">
+            <div class="col text-center dark">Photography</div>
+            <div class="col-3 text-center dark">5 hours</div>
+            <div class="col-4 text-center dark">$200.00</div>
+        </div>
+        <div class="row">
+            <div class="col text-center dark">Full Emmersive</div>
+            <div class="col-3 text-center dark">8 hours</div>
+            <div class="col-4 text-center dark">$500.00</div>
+        </div>
+       
+    </div>
+
+    <form>
+        <h2>Ready to Begin Your Adventure?</h2>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">Your Email is Secure with us.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
+</body>
+</html>
